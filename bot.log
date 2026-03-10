@@ -1,0 +1,1539 @@
+2026-03-10 11:15:57,589 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getMe "HTTP/1.1 200 OK"
+2026-03-10 11:15:58,362 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/deleteWebhook "HTTP/1.1 200 OK"
+2026-03-10 11:15:58,385 - telegram.ext.Application INFO - Application started
+2026-03-10 11:16:10,524 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:16:21,759 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:16:27,801 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:16:29,903 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/sendMessage "HTTP/1.1 200 OK"
+2026-03-10 11:16:38,469 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:16:49,311 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:17:01,599 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:17:12,056 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:17:23,135 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:17:33,458 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:17:41,847 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getMe "HTTP/1.1 200 OK"
+2026-03-10 11:17:42,550 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/deleteWebhook "HTTP/1.1 200 OK"
+2026-03-10 11:17:42,566 - telegram.ext.Application INFO - Application started
+2026-03-10 11:17:44,427 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:17:45,684 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/sendMessage "HTTP/1.1 200 OK"
+2026-03-10 11:17:45,687 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\bot.py", line 18, in start
+    await print(update)
+TypeError: object NoneType can't be used in 'await' expression
+2026-03-10 11:17:56,017 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:18:06,993 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:18:18,201 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:18:28,844 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:18:39,184 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:18:50,033 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:19:01,213 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:19:11,660 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:19:22,421 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:19:33,064 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:19:43,382 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:19:54,097 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:20:05,029 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:20:15,482 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:20:26,197 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:20:37,777 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:20:47,823 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:20:58,577 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:21:08,623 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:21:19,244 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:21:29,937 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:21:40,693 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:21:51,051 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:22:01,809 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:22:11,856 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:22:22,480 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:22:33,170 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:22:43,965 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:22:54,321 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:23:05,077 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:23:15,124 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:23:25,739 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:23:36,063 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:23:46,837 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:23:56,883 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:24:07,498 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:24:18,226 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:24:28,554 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:24:39,170 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:24:49,495 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:25:00,241 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:25:10,288 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:25:20,910 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:25:31,605 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:25:41,922 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:25:52,245 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:26:00,491 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.READ_NUM_BYTES, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Кузнецов Артём\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ReadError: 
+2026-03-10 11:26:01,506 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Кузнецов Артём\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2026-03-10 11:26:27,151 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:26:37,775 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:26:48,924 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:26:59,732 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:27:10,548 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:27:22,140 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:27:34,620 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:27:46,103 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:27:58,784 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:28:18,808 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Кузнецов Артём\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2026-03-10 11:28:33,817 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:28:46,319 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.READ_NUM_BYTES, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Кузнецов Артём\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ReadError: 
+2026-03-10 11:28:47,324 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Кузнецов Артём\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2026-03-10 11:29:01,785 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:29:11,847 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:29:22,194 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:29:33,019 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:29:43,679 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:29:54,023 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:30:04,763 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:30:15,611 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:30:25,754 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:30:36,443 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:30:47,096 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:30:57,421 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:31:08,091 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:31:18,664 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:31:28,805 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:31:39,451 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:31:50,587 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:32:01,256 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:32:11,611 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:32:21,765 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:32:32,379 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:32:42,823 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:32:52,968 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:33:03,611 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:33:13,981 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:33:24,900 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:33:35,556 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:33:40,201 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:33:46,474 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:33:46,475 - telegram.ext.Application INFO - Application is stopping. This might take a moment.
+2026-03-10 11:33:46,476 - telegram.ext.Application INFO - Application.stop() complete
+2026-03-10 11:33:48,737 - root INFO - Бот Стартовал
+2026-03-10 11:33:52,457 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getMe "HTTP/1.1 200 OK"
+2026-03-10 11:33:53,162 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/deleteWebhook "HTTP/1.1 200 OK"
+2026-03-10 11:33:53,165 - telegram.ext.Application INFO - Application started
+2026-03-10 11:33:55,127 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:33:56,397 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/sendMessage "HTTP/1.1 200 OK"
+2026-03-10 11:34:05,183 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:34:11,040 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:34:12,951 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/sendMessage "HTTP/1.1 200 OK"
+2026-03-10 11:34:21,392 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:34:32,041 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:34:42,846 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:34:56,221 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:35:06,374 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:35:17,127 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:35:27,471 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:35:38,116 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:35:47,962 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:35:47,963 - telegram.ext.Application INFO - Application is stopping. This might take a moment.
+2026-03-10 11:35:47,963 - telegram.ext.Application INFO - Application.stop() complete
+2026-03-10 11:37:36,461 - root INFO - Бот Стартовал
+2026-03-10 11:37:40,586 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getMe "HTTP/1.1 200 OK"
+2026-03-10 11:37:40,729 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/deleteWebhook "HTTP/1.1 200 OK"
+2026-03-10 11:37:40,731 - telegram.ext.Application INFO - Application started
+2026-03-10 11:37:41,201 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:37:41,370 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/sendMessage "HTTP/1.1 200 OK"
+2026-03-10 11:37:41,371 - root INFO - User:WonAndDer, Chat id: 1232719883, Message: asdasd
+2026-03-10 11:37:51,350 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:38:01,497 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:38:11,674 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:38:21,944 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 343, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.READ_NUM_BYTES, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Кузнецов Артём\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ReadError: 
+2026-03-10 11:38:24,973 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        connect_request
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Кузнецов Артём\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-03-10 11:38:37,177 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:38:37,720 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 343, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.READ_NUM_BYTES, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Кузнецов Артём\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ReadError: 
+2026-03-10 11:38:49,686 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:38:59,782 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:39:09,889 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:39:20,006 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:39:21,705 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:39:23,191 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/sendMessage "HTTP/1.1 200 OK"
+2026-03-10 11:39:23,194 - root INFO - User:WonAndDer, Chat id: 1232719883, Message: фывфыв
+2026-03-10 11:39:31,817 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:39:41,923 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:39:52,028 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:40:02,122 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:40:12,212 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:40:22,299 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:40:32,480 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:40:42,566 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:40:52,656 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:41:00,751 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:41:01,186 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/sendMessage "HTTP/1.1 200 OK"
+2026-03-10 11:41:01,200 - root INFO - User:WonAndDer, Chat id: 1232719883, Message: чтобы ты шел домой
+2026-03-10 11:41:10,900 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:41:21,004 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:41:31,103 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:41:41,204 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:41:51,301 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:42:01,401 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:42:11,520 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:42:21,658 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:42:31,751 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:42:41,838 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:42:51,942 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:43:02,032 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:43:12,133 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:43:22,258 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:43:32,354 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:43:42,495 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:43:52,594 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:44:02,687 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:44:12,794 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:44:22,887 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:44:32,978 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:44:43,146 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:44:53,236 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:45:03,333 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:45:13,426 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:45:23,535 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:45:33,626 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:45:37,414 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:45:37,415 - telegram.ext.Application INFO - Application is stopping. This might take a moment.
+2026-03-10 11:45:37,415 - telegram.ext.Application INFO - Application.stop() complete
+2026-03-10 11:45:39,004 - root INFO - Бот Стартовал
+2026-03-10 11:45:41,739 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getMe "HTTP/1.1 200 OK"
+2026-03-10 11:45:41,826 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/deleteWebhook "HTTP/1.1 200 OK"
+2026-03-10 11:45:41,831 - telegram.ext.Application INFO - Application started
+2026-03-10 11:45:44,153 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:45:44,159 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\bot.py", line 23, in talkToMe
+    await context.bot.send_message(chat_id='931448223')
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+TypeError: ExtBot.send_message() missing 1 required positional argument: 'text'
+2026-03-10 11:45:54,257 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:46:04,370 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:46:14,461 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:46:18,104 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:46:18,147 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\bot.py", line 23, in talkToMe
+    await context.bot.send_message(chat_id='931448223')
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+TypeError: ExtBot.send_message() missing 1 required positional argument: 'text'
+2026-03-10 11:46:19,316 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:46:19,673 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/sendMessage "HTTP/1.1 200 OK"
+2026-03-10 11:46:19,677 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\bot.py", line 18, in start
+    await print(update)
+TypeError: object NoneType can't be used in 'await' expression
+2026-03-10 11:46:22,758 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:46:22,760 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\bot.py", line 23, in talkToMe
+    await context.bot.send_message(chat_id='931448223')
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+TypeError: ExtBot.send_message() missing 1 required positional argument: 'text'
+2026-03-10 11:46:32,618 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:46:32,623 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\bot.py", line 23, in talkToMe
+    await context.bot.send_message(chat_id='931448223')
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+TypeError: ExtBot.send_message() missing 1 required positional argument: 'text'
+2026-03-10 11:46:42,709 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:46:51,060 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:46:51,061 - telegram.ext.Application INFO - Application is stopping. This might take a moment.
+2026-03-10 11:46:51,061 - telegram.ext.Application INFO - Application.stop() complete
+2026-03-10 11:46:52,924 - root INFO - Бот Стартовал
+2026-03-10 11:46:55,300 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getMe "HTTP/1.1 200 OK"
+2026-03-10 11:46:55,388 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/deleteWebhook "HTTP/1.1 200 OK"
+2026-03-10 11:46:55,390 - telegram.ext.Application INFO - Application started
+2026-03-10 11:46:56,674 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:46:56,676 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\bot.py", line 23, in talkToMe
+    await context.bot.send_message(chat_id=931448223)
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: ExtBot.send_message() missing 1 required positional argument: 'text'
+2026-03-10 11:47:02,649 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:47:02,657 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\bot.py", line 23, in talkToMe
+    await context.bot.send_message(chat_id=931448223)
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: ExtBot.send_message() missing 1 required positional argument: 'text'
+2026-03-10 11:47:12,750 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:47:22,842 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:47:23,575 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:47:23,580 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\bot.py", line 23, in talkToMe
+    await context.bot.send_message(chat_id=931448223)
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: ExtBot.send_message() missing 1 required positional argument: 'text'
+2026-03-10 11:47:24,516 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:47:24,520 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\bot.py", line 23, in talkToMe
+    await context.bot.send_message(chat_id=931448223)
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: ExtBot.send_message() missing 1 required positional argument: 'text'
+2026-03-10 11:47:24,896 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:47:24,899 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\bot.py", line 23, in talkToMe
+    await context.bot.send_message(chat_id=931448223)
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: ExtBot.send_message() missing 1 required positional argument: 'text'
+2026-03-10 11:47:27,077 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:47:27,080 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\bot.py", line 23, in talkToMe
+    await context.bot.send_message(chat_id=931448223)
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: ExtBot.send_message() missing 1 required positional argument: 'text'
+2026-03-10 11:47:37,225 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:47:47,314 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:47:57,401 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:48:01,381 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:48:01,382 - telegram.ext.Application INFO - Application is stopping. This might take a moment.
+2026-03-10 11:48:01,382 - telegram.ext.Application INFO - Application.stop() complete
+2026-03-10 11:48:02,904 - root INFO - Бот Стартовал
+2026-03-10 11:48:06,205 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getMe "HTTP/1.1 200 OK"
+2026-03-10 11:48:06,294 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/deleteWebhook "HTTP/1.1 200 OK"
+2026-03-10 11:48:06,298 - telegram.ext.Application INFO - Application started
+2026-03-10 11:48:06,632 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:48:06,867 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/sendMessage "HTTP/1.1 200 OK"
+2026-03-10 11:48:06,874 - root INFO - User:WonAndDer, Chat id: 1232719883, Message: asfasf
+2026-03-10 11:48:16,270 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:48:16,721 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/sendMessage "HTTP/1.1 200 OK"
+2026-03-10 11:48:16,723 - root INFO - User:WonAndDer, Chat id: 1232719883, Message: фывафыв
+2026-03-10 11:48:19,164 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:48:19,432 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/sendMessage "HTTP/1.1 200 OK"
+2026-03-10 11:48:19,439 - root INFO - User:WonAndDer, Chat id: 1232719883, Message: а
+2026-03-10 11:48:20,701 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:48:20,951 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/sendMessage "HTTP/1.1 200 OK"
+2026-03-10 11:48:20,954 - root INFO - User:WonAndDer, Chat id: 1232719883, Message: аааааааа
+2026-03-10 11:48:29,940 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:48:30,382 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/sendMessage "HTTP/1.1 200 OK"
+2026-03-10 11:48:30,384 - root INFO - User:WonAndDer, Chat id: 1232719883, Message: привет
+2026-03-10 11:48:35,150 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:48:35,269 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/sendMessage "HTTP/1.1 200 OK"
+2026-03-10 11:48:35,271 - root INFO - User:cnmvol, Chat id: 931448223, Message: привет
+2026-03-10 11:48:45,250 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:48:52,831 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:48:53,157 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/sendMessage "HTTP/1.1 200 OK"
+2026-03-10 11:48:53,163 - root INFO - User:cnmvol, Chat id: 931448223, Message: соси хуй я свой рот ебал
+2026-03-10 11:49:02,923 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:49:13,013 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:49:13,690 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:49:14,148 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/sendMessage "HTTP/1.1 200 OK"
+2026-03-10 11:49:14,150 - root INFO - User:cnmvol, Chat id: 931448223, Message: *свой
+2026-03-10 11:49:16,476 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:49:16,635 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/sendMessage "HTTP/1.1 200 OK"
+2026-03-10 11:49:16,636 - root INFO - User:cnmvol, Chat id: 931448223, Message: *свой
+2026-03-10 11:49:22,086 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:49:22,399 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/sendMessage "HTTP/1.1 200 OK"
+2026-03-10 11:49:22,408 - root INFO - User:cnmvol, Chat id: 931448223, Message: бля
+2026-03-10 11:49:32,188 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:49:42,303 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:49:46,393 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:49:46,736 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/sendMessage "HTTP/1.1 200 OK"
+2026-03-10 11:49:46,738 - root INFO - User:cnmvol, Chat id: 931448223, Message: я тебя проклинаю
+2026-03-10 11:49:50,346 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:49:50,640 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/sendMessage "HTTP/1.1 200 OK"
+2026-03-10 11:49:50,643 - root INFO - User:cnmvol, Chat id: 931448223, Message: смартфон виво
+2026-03-10 11:49:55,822 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:49:56,142 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/sendMessage "HTTP/1.1 200 OK"
+2026-03-10 11:49:56,143 - root INFO - User:cnmvol, Chat id: 931448223, Message: ты будешь мученик
+2026-03-10 11:50:01,883 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:50:02,203 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/sendMessage "HTTP/1.1 200 OK"
+2026-03-10 11:50:02,205 - root INFO - User:cnmvol, Chat id: 931448223, Message: смартфон виво
+2026-03-10 11:50:12,287 - httpx INFO - HTTP Request: POST https://api.telegram.org/bot8685843547:AAEopkBsti22hm0cMo2k3qUwmUCN8X9YmlU/getUpdates "HTTP/1.1 200 OK"
+2026-03-10 11:50:12,289 - telegram.ext.Application INFO - Application is stopping. This might take a moment.
+2026-03-10 11:50:12,289 - telegram.ext.Application INFO - Application.stop() complete
