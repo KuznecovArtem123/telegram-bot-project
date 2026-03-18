@@ -3419,3 +3419,5 @@ telegram.error.TimedOut: Timed out
 2026-03-18 14:59:05,109 - telegram.ext.Application INFO - Application started
 2026-03-18 14:59:07,881 - root INFO - Hello! Welcome To Our Chat! 🐼
 2026-03-18 14:59:25,422 - root INFO - User:WonAndDer, Chat id: 1232719883, Message: Геолокация
+2026-03-18 15:03:18,559 - telegram.ext.Application INFO - Application is stopping. This might take a moment.
+2026-03-18 15:03:18,561 - telegram.ext.Application INFO - Application.stop() complete
