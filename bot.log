@@ -3421,3 +3421,399 @@ telegram.error.TimedOut: Timed out
 2026-03-18 14:59:25,422 - root INFO - User:WonAndDer, Chat id: 1232719883, Message: Геолокация
 2026-03-18 15:03:18,559 - telegram.ext.Application INFO - Application is stopping. This might take a moment.
 2026-03-18 15:03:18,561 - telegram.ext.Application INFO - Application.stop() complete
+2026-03-18 15:21:11,800 - root INFO - Бот Стартовал
+2026-03-18 15:21:20,807 - telegram.ext.Application INFO - Application started
+2026-03-18 15:21:43,531 - root INFO - Hello! Welcome To Our Chat! 🐼
+2026-03-18 15:21:44,707 - root INFO - Отправили фото: images\cat2.jpg
+2026-03-18 15:21:53,534 - root INFO - User:WonAndDer, Chat id: 1232719883, Message: Геолокация
+2026-03-18 15:28:12,790 - root INFO - Бот Стартовал
+2026-03-18 15:28:21,739 - telegram.ext ERROR - Network Retry Loop (Bootstrap Initialize Application): Timed out: Timed out. Failed run number 0 of 0. Aborting.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 316, in handle_async_request
+    stream = await stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http11.py", line 376, in start_tls
+    return await self._stream.start_tls(ssl_context, server_hostname, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 67, in start_tls
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Кузнецов Артём\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 136, in do_action
+    await action_cb()
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 315, in initialize
+    await super().initialize()
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 856, in initialize
+    await self.get_me()
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 2007, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 989, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 296, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+2026-03-18 15:28:26,142 - root INFO - Бот Стартовал
+2026-03-18 15:28:35,911 - telegram.ext.Application INFO - Application started
+2026-03-18 15:28:40,315 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\handlers.py", line 41, in get_contact
+    await update.message.reply_text(f'Готово:{context.user_data['smile']}')
+                                              ~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'smile'
+2026-03-18 15:28:41,623 - root INFO - Hello! Welcome To Our Chat! 🐼
+2026-03-18 15:28:46,640 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http_proxy.py", line 343, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_async\http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.READ_NUM_BYTES, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Кузнецов Артём\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\handlers.py", line 11, in start
+    await update.message.reply_text(text, reply_markup=get_keyboard())
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_message.py", line 2068, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 3115, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 1122, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 629, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 819, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 296, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+2026-03-18 15:29:08,791 - root INFO - Сменили аватар 🐼
+2026-03-18 15:29:22,807 - root INFO - Hello! Welcome To Our Chat! 🐼
+2026-03-18 15:29:25,336 - root INFO - Сменили аватар 🐼
+2026-03-18 15:29:28,874 - root INFO - Сменили аватар 🐶
+2026-03-18 15:29:36,716 - root INFO - Hello! Welcome To Our Chat! 🐶
+2026-03-18 15:29:48,576 - root INFO - Отправили фото: images\cat1.jpg
+2026-03-18 15:30:05,633 - root INFO - User:WonAndDer, Chat id: 1232719883, Message: asd
+2026-03-18 15:30:06,440 - root INFO - Hello! Welcome To Our Chat! 🐶
+2026-03-18 16:19:20,500 - telegram.ext.Application INFO - Application is stopping. This might take a moment.
+2026-03-18 16:19:20,500 - telegram.ext.Application INFO - Application.stop() complete
+2026-03-18 16:48:52,497 - root INFO - Бот Стартовал
+2026-03-18 16:50:00,014 - root INFO - Бот Стартовал
+2026-03-18 16:50:08,004 - telegram.ext.Application INFO - Application started
+2026-03-18 16:50:12,968 - root INFO - Hello! Welcome To Our Chat! 🐼
+2026-03-18 16:51:54,179 - root INFO - Бот Стартовал
+2026-03-18 16:51:59,092 - telegram.ext.Application INFO - Application started
+2026-03-18 16:52:18,652 - telegram.ext.Application ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_handlers\conversationhandler.py", line 841, in handle_update
+    new_state: object = await handler.handle_update(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        update, application, handler_check_result, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\handlers.py", line 80, in anketa_comment
+    await update.message.reply_text(text, reply_markup=get_keyboard(), parse_mode=ParseMode.HTML)
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_message.py", line 2068, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 3115, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 1122, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 629, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 819, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Can't parse entities: unsupported start tag "p" at byte offset 115
