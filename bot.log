@@ -3415,3 +3415,7 @@ Traceback (most recent call last):
   File "C:\Users\Кузнецов Артём\Desktop\python\telegram-bot-project\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 296, in do_request
     raise TimedOut from err
 telegram.error.TimedOut: Timed out
+2026-03-18 14:59:00,932 - root INFO - Бот Стартовал
+2026-03-18 14:59:05,109 - telegram.ext.Application INFO - Application started
+2026-03-18 14:59:07,881 - root INFO - Hello! Welcome To Our Chat! 🐼
+2026-03-18 14:59:25,422 - root INFO - User:WonAndDer, Chat id: 1232719883, Message: Геолокация
