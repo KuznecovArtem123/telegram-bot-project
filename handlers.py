@@ -5,10 +5,11 @@ from telegram import Update, ReplyKeyboardMarkup,KeyboardButton, ReplyKeyboardRe
 from glob import glob
 from utils import *
 
+
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     smile = get_user_smile(context.user_data)
     text = f'Hello! Welcome To Our Chat! {smile}'
-    
+    print(update.message.chat_id)
     await update.message.reply_text(text, reply_markup=get_keyboard())
     logging.info(text)
 
@@ -66,7 +67,7 @@ async def anketa_rating(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         """Пожалуйста, Напишите отзыв в свободной форме 
         или /skip чтобы пропустить этот шаг
-        """)
+        """, reply_markup=ReplyKeyboardRemove())
     return 'comment'
 
 async def anketa_comment(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -89,3 +90,46 @@ async def anketa_skip_comment(update: Update, context: ContextTypes.DEFAULT_TYPE
 
 async def anketa_exit(update: Update, context: ContextTypes.DEFAULT_TYPE):
     return ConversationHandler.END
+
+async def dontknow(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await update.message.reply_text("Введите число")
+
+async def my_test(context: ContextTypes.DEFAULT_TYPE):
+    await context.bot.sendMessage(chat_id=1232719883, text='Нагиев рассказал секрет, как он оставляет его в состояние.....<a href="penis.com">Читать дальше---->>></a>' ,parse_mode=ParseMode.HTML)
+
+async def my_test_schedule_end(context: ContextTypes.DEFAULT_TYPE):
+    await context.bot.sendMessage(chat_id=1232719883, text='No more spam')
+    context.job.schedule_removal()
+
+async def my_test_schedule(context: ContextTypes.DEFAULT_TYPE):
+    context.job_queue.run_repeating(callback=my_test, interval=3, last=10)
+    context.job_queue.run_once(callback=my_test_schedule_end, when=10)
+
+
+subscribers = set()
+
+async def subscribe(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    subscribers.add(update.message.chat_id)
+    await update.message.reply_text('Вы подписались')
+    print(subscribers)
+
+async def send_updates(context: ContextTypes.DEFAULT_TYPE):
+    for chat_id in subscribers:
+        await context.bot.send_message(chat_id=chat_id, text='BUZZ!')
+
+async def unsubscribe(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    if update.message.chat_id in subscribers:
+        subscribers.remove(update.message.chat_id)
+        await update.message.reply_text('Вы отписались')
+    else:
+        await update.message.reply_text('Вы еще не подписаны')
+
+async def set_alarm(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    try:
+        seconds = abs(int(context.args[0]))
+        context.job_queue.run_once(callback=alarm, when=seconds, chat_id=update.message.chat_id)
+    except(IndexError, ValueError):
+        await update.message.reply_text('Введите число секунд после команды /alarm')
+
+async def alarm(context: ContextTypes.DEFAULT_TYPE):
+    await context.bot.send_message(chat_id=context.job.chat_id, text='Сработал будильник!')

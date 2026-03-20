@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 import logging
 from handlers import *
 # кирилл 931448223
+# я 1232719883
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s %(levelname)s - %(message)s",
@@ -15,6 +16,8 @@ logging.basicConfig(
 logging.getLogger('httpx').setLevel(logging.WARNING)
 
 load_dotenv()
+
+
 
 def main():
     logging.info('Бот Стартовал')
@@ -34,11 +37,17 @@ def main():
                         MessageHandler(filters.TEXT, anketa_comment),
                         ]
         },
-        fallbacks=[CommandHandler('exit', anketa_exit)]
+        
+        fallbacks=[MessageHandler(filters.TEXT, dontknow)]
     )
+    # application.job_queue.run_once(callback=my_test_schedule, when=1)
+    application.job_queue.run_repeating(callback=send_updates, interval=5)
     application.add_handler(anketa)
     application.add_handler(CommandHandler('start', start))
     application.add_handler(CommandHandler('cat', send_cat_picture))
+    application.add_handler(CommandHandler('subscribe', subscribe))
+    application.add_handler(CommandHandler('unsubscribe', unsubscribe))
+    application.add_handler(CommandHandler('alarm', set_alarm))
     application.add_handler(MessageHandler(filters.Regex('^(Прислать котика)$'), send_cat_picture))
     application.add_handler(MessageHandler(filters.Regex('^(Сменить аватарку)$'), change_avatar))
     application.add_handler(MessageHandler(filters.CONTACT, get_contact))
