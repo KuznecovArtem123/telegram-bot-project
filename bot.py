@@ -30,8 +30,8 @@ def main():
             'name': [MessageHandler(filters.TEXT, anketa_get_name)],
             'rating': [MessageHandler(filters.Regex('^(1|2|3|4|5)$'), anketa_rating)],
             'comment': [
+                        CommandHandler('skip', anketa_skip_comment),
                         MessageHandler(filters.TEXT, anketa_comment),
-                        CommandHandler('skip', anketa_skip_comment)
                         ]
         },
         fallbacks=[CommandHandler('exit', anketa_exit)]
