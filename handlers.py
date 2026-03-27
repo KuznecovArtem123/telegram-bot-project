@@ -4,21 +4,32 @@ from telegram.constants import ParseMode
 from telegram import Update, ReplyKeyboardMarkup,KeyboardButton, ReplyKeyboardRemove
 from glob import glob
 from utils import *
+from random import choice
+from db_models import *
 
 
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    smile = get_user_smile(context.user_data)
+async def start(update, context):
+    current_user = get_or_create_user(users, update.effective_user, update.message)
+    print(current_user)
+
+    smile = get_user_smile(users, current_user)
     text = f'Hello! Welcome To Our Chat! {smile}'
-    print(update.message.chat_id)
+   
     await update.message.reply_text(text, reply_markup=get_keyboard())
     logging.info(text)
 
 async def change_avatar(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    if 'smile' in context.user_data:
-        del context.user_data['smile']
-    smile = get_user_smile(context.user_data)
-    await update.message.reply_text(f'Готово: {smile}')
-    logging.info('Сменили аватар %s', smile)
+    current_user = get_or_create_user(users, update.effective_user, update.message)
+
+    if current_user.smile:
+        with engine.begin() as connection:
+            upd = db.update(users).where(users.c.id == current_user.id).values({'smile': None})
+            connection.execute(upd)
+    smile = get_user_smile(users, current_user)
+    
+    text = f'Готово! {smile}'
+    await update.message.reply_text(text)
+
 
 
 async def talkToMe(update: Update, context):
