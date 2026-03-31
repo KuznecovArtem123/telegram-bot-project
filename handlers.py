@@ -120,20 +120,26 @@ async def my_test_schedule(context: ContextTypes.DEFAULT_TYPE):
 subscribers = set()
 
 async def subscribe(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    subscribers.add(update.message.chat_id)
-    await update.message.reply_text('Вы подписались')
-    print(subscribers)
+    current_user = get_or_create_user(users, update.effective_user, update.message)
+
+    if not current_user.is_subscribed:
+        toggle_subscription(users, current_user)
+        await update.message.reply_text('Вы подписались')
+    
 
 async def send_updates(context: ContextTypes.DEFAULT_TYPE):
     for chat_id in subscribers:
         await context.bot.send_message(chat_id=chat_id, text='BUZZ!')
 
 async def unsubscribe(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    if update.message.chat_id in subscribers:
-        subscribers.remove(update.message.chat_id)
+    current_user = get_or_create_user(users, update.effective_user, update.message)
+
+    if current_user.is_subscribed:
+        toggle_subscription(users, current_user)
         await update.message.reply_text('Вы отписались')
     else:
-        await update.message.reply_text('Вы еще не подписаны')
+        await update.message.reply_text('Вы еще не подписаны, /subscribe')
+    
 
 async def set_alarm(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:
