@@ -3,3 +3,4 @@ venv
 settings.py
 bot.log
 .env
+__pycache__
